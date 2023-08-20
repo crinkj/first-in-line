@@ -5,6 +5,6 @@ spring:
     show-sql: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ##
-    username: ##
-    password: ##
+    url: jdbc:mysql://johndev.synology.me:3306/first_in_line
+    username: john
+    password: John123!@#
