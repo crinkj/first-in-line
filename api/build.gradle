@@ -18,6 +18,7 @@ repositories {
 dependencies {
     // jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
     // lombok
     annotationProcessor 'org.projectlombok:lombok'
     compileOnly 'org.projectlombok:lombok'
@@ -27,6 +28,9 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 }
 
 tasks.named('test') {
